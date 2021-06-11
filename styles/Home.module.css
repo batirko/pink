@@ -1,3 +1,4 @@
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -13,6 +14,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 95%;
+  max-width: 900px;
+
 }
 
 .footer {
@@ -22,8 +26,6 @@
   justify-content: center;
   align-items: center;
   padding: 25px;
-  font-size: 2em;
-  text-align: center;
 }
 
 .footer a {
@@ -74,7 +76,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 800px;
+  justify-content: space-between;
   margin-top: 3rem;
 }
 
@@ -115,9 +117,46 @@
   margin-left: 0.5rem;
 }
 
+
+
+.end {
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 3em;
+flex-wrap: wrap;
+padding-bottom: 5em;
+}
+
+.end img{
+min-width: 50%
+}
+
+.end p {
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+
+@media (max-width: 950px) {
+  .end {
+    justify-content: center;
+  }
+
+  .end p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 756px) {
+  .grid {
+justify-content: center;
   }
 }
