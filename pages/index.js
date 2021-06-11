@@ -9,6 +9,7 @@ export default function Home() {
         <title>Маркетинговое Агенство Розовый Слон</title>
         <meta name="description" content="Маркетинговое Агенство Розовый Слон" />
         <link rel="icon" href="/favicon.ico" />
+        <meta name="facebook-domain-verification" content="800a3rittrqttfxta71node9p6vz1k" />
       </Head>
 
       <main className={styles.main}>
