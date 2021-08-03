@@ -52,7 +52,7 @@ export default function Home() {
           <Image src="/image2.webp" height={1001 * 0.4} width={1083 * 0.4} objectFit="contain" />
           <p>
             Украина, г.Киев, ул. Автозаводская 54\19, офис 64 <br></br>
-        т. +380992918777 <br></br>
+        т. +380916025519 <br></br>
         Маркетинговое Агенство Розовый Слон <br></br>
           </p>
         </div>
